@@ -1,0 +1,11 @@
+html, body,input[type="checkbox"], input[type="radio"], select, option {
+    cursor: url(../img/arrow.cur), default;
+}
+
+input[type="text"], textarea {
+    cursor: url(../img/text.cur), text;
+}
+
+a, .button, .button-secondary, .submit input, input[type="button"], input[type="submit"] {
+    cursor: url(../img/link.cur), pointer;
+}
